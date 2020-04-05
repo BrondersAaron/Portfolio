@@ -50,6 +50,9 @@ main {
   width: 2/3 * 100%;
   margin: 15px auto;
 }
+.indent-10 {
+  margin-left: 10px;
+}
 div.v-toolbar__content > div.v-toolbar__title {
   overflow: visible;
   cursor: pointer;

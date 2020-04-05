@@ -23,19 +23,35 @@
       <p>
         Make a new folder to place your project in and create a file 'main.ts'.
         My editor of choice is
-        <a href="https://code.visualstudio.com/" target="blank">Visual Studio Code</a> but there’s many which support Typescript.
+        <a
+          href="https://code.visualstudio.com/"
+          target="blank"
+        >Visual Studio Code</a> but there’s many which support Typescript.
         You’ll want the content of the file to look something like this.
       </p>
       <img src="/img/content/TSHello.jpg" alt="Image of Typescript code" />
       <p>
         When you’ve done this you’ll want to open your command prompt in the location of the file and type
-        <span class="code">tsc main</span>. This will compile your
+        <span
+          class="code"
+        >tsc main</span>. This will compile your
         typescript file to a javascript file. Now you can execute your code with the command
-        <span class="code">node main</span>. If you want your typescript file to be
+        <span
+          class="code"
+        >node main</span>. If you want your typescript file to be
         recompiled every time you make changes to it you can use the tsc command with the option "&#8209;w" or "&#8209;&#8209;watch" e.g.
         <span
           class="code"
         >tsc &#8209;w main</span>
+      </p>
+      <p>
+        This already introduces you to some things that are important in Typescript, like how you declare the type of a variable,
+        function, etc. If you want to learn more about Typescript, I would definitely recommend checking out the documentation at
+        <a
+          href="https://www.typescriptlang.org/docs/home"
+        >https://www.typescriptlang.org/docs/home</a>
+        and a nice short video tutorial on
+        <a href="https://www.youtube.com/watch?v=ahCwqrYpIuM">YouTube</a>
       </p>
     </div>
   </main>
@@ -49,9 +65,6 @@ export default Vue.extend({});
 
 <style scoped lang="scss">
 main {
-  .indent-10 {
-    margin-left: 10px;
-  }
   p,
   img,
   h2 {

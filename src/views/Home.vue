@@ -4,11 +4,16 @@
       <h1 class>Hey there!</h1>
       <h2 class="subheading">I'd like to introduce myself.</h2>
       <p>
-        My name is Aaron Bronders. I was born in Ostend, Belgium, on the 14th of march 1996.<br/>
-        I'm a software engineer whose goal in life is to be a language agnostic full-stack developer.
+        My name is Aaron Bronders. I was born in Ostend, Belgium, on the 14th of march 1996.
+        <br />I'm a software engineer whose goal in life is to be a language agnostic full-stack developer.
       </p>
-      <a href="#experience">Below you can see some more information about me</a>
     </Introduction>
+
+    <h1>Socials</h1>
+      <v-icon x-large color="blue">mdi-linkedin
+      </v-icon>
+      <v-icon x-large color="dark-gray">mdi-github
+      </v-icon>
   </div>
 </template>
 
@@ -27,8 +32,7 @@ export default Vue.extend({
   data() {
     return {
       avatarImage: {
-        href:
-          "https://www.yourdictionary.com/images/definitions/lg/10750.person.jpg",
+        href: "/img/content/avatar.jpg",
         alt: "Image of Aaron Bronders."
       } as Image
     };

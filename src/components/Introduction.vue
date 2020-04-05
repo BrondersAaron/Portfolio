@@ -1,12 +1,12 @@
 <template>
   <section class="indtroduction mt-5">
-    <v-row align="center" justify="center" class="introduction">
-      <v-col cols="12" md="2" class="text-center">
-        <v-avatar size="15vh" class="elevation-5">
+    <v-row align="center" justify="start" class="introduction">
+      <v-col cols="12" md="auto" class="text-center">
+        <v-avatar class="elevation-5" size="150px" right>
           <img :src="img.href" :alt="img.alt" :title="img.title || img.alt" />
         </v-avatar>
       </v-col>
-      <v-col cols="12" md="6">
+      <v-col cols="12" md="9">
         <slot></slot>
       </v-col>
     </v-row>
