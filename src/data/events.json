@@ -1,0 +1,81 @@
+[
+  {
+    "title": "De Warmste Hackathon / The Cosiest Hackathon",
+    "img": "",
+    "date": "11/10/19",
+    "short": "The event was a 24hr hackathon meant to come up with ideas to improve society. This was done in groups of 1-5.",
+    "content": [
+      {
+        "title": "Start",
+        "content": "At 6pm we gathered, about 50 people, to get the description of what we were about to do. This information was given through a YouTube video which was hard to understand at times. Once we got the needed info we got ourselves seated at our desk and started thinking about what we'd do."
+      },
+      {
+        "title": "Our idea",
+        "content": "Our idea was to make a Capture the flag site to make web developers more aware of common security issues. We went with this since we were all programmers and wanted to do something with code. In a broad sense this would also make society better since less people might get their data stolen.  The judges disagreed though."
+      },
+      {
+        "title": "The event",
+        "content": "The event had a lot of neat things to do. You could spend points you'd earn from playing minigames and from grading of your idea to buy a butler service or to buy some snacks or drinks. The games oyu could play were e.g. blackjack or a VR game."
+      },
+      {
+        "title": "Reflection",
+        "content": "I had a bit of a mixed feeling with this event. The reception and preparation was good, but I didn't agree with how we were scored. All in all I'm happy I had the experience of doing a 24hr hackathon."
+      }
+    ]
+  },
+  {
+    "title": "Cityhacks Bruges",
+    "img": "",
+    "date": "22/11/2019",
+    "short": "This was another hackathon but this time split into 2 days. The excercise was to find a way to measure how people experience art in different forms.",
+    "content": [
+      {
+        "title": "Start",
+        "content": "Our day started in the hearly hours: 8:15 am. We got a nice breakfast and coffee to boot. Each group got a table and we started brainstorming. "
+      },
+      {
+        "title": "Coaching",
+        "content": "At around 11:00 am we got a coaching session with some entrepreneurs and cultural workers from Bruges. Here we got a better idea of what they were expecting to get from us. We had an idea to do with tracking of emotions which they liked, but we had to go more in-depth with our idea."
+      },
+      {
+        "title": "Our idea",
+        "content": "After lots of discussion we came up with the idea of wearables that would track your emotions through temperature, sweat, ... and would light up in a colour corresponding to a certain emotion. This would allow others to see what you're feeling. This data could be coupled with locational data to get an idea of what art piece generates which emotions."
+      },
+      {
+        "title": "Second day",
+        "content": "This was presentation day. We needed to put up stalls to showcase our idea to other people. We did this in a simple way with prints showcasing how our idea worked taped on cardboard. In hindsight this might've not been the best way to get people invested in our idea."
+      },
+      {
+        "title": "Reflection",
+        "content": "Even though we didn't manage to get any prizes with our idea, I really liked the event. The coaches and team mates were nice, the atmosphere was great. I really enjoyed it."
+      }
+    ]
+  },
+  {
+    "title": "Vue day",
+    "img": "",
+    "date": "11/03/2020",
+    "short": "This was an introduction to Vue and some of its quirks by Onno Baudouin, my internship mentor.",
+    "content": [
+      {
+        "title": "Beginning",
+        "content": "Since we needed a space where we could project a screen, we relocated to another UCLan building into a tiny space with barely enough space for the three of us."
+      },
+      {
+        "title": "Content",
+        "content": "Both Titus(my colleague intern) and me had a basic understanding of Vue since we had to learn it for our currriculum. This meant we could skip over some of the basic stuff and delve a bit deeper. We looked into how reactivity in Vue actually worked. We also took a look at VueX and Vuetify. The goal of the seminar was to get a deeper understanding of how the framework actually works. This was so we wouldn't be using stuff we didn't understand and just thought it was magic. Due to this, many issues were prevented during the internship  in my opinion."
+      },
+      {
+        "title": "Reflection",
+        "content": "We managed to refresh our memory about Vue and learn quite a bit of new stuff as well. At the end of the day we might've been tired since it took quite a while but I think this session helped a lot for the rest of my internship."
+      }
+    ]
+  },
+  {
+    "title": "",
+    "img": "",
+    "date": "",
+    "short": "",
+    "content": [""]
+  }
+]

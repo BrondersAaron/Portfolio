@@ -3,7 +3,7 @@
     <v-navigation-drawer v-model="drawer" app temporary class="hidden-md-and-up pa-5">
       <v-list dense>
         <v-list-item
-          v-for="route in $router.options.routes"
+          v-for="route in routes"
           :key="route.path"
           :to="route.path"
           router
@@ -21,7 +21,7 @@
       <div class="d-flex align-center"></div>
       <v-tabs right class="hidden-sm-and-down">
         <v-tab
-          v-for="route in $router.options.routes"
+          v-for="route in routes"
           :key="route.path"
           :to="route.path"
         >{{ route.name }}</v-tab>
@@ -40,14 +40,20 @@ export default Vue.extend({
   name: "App",
   components: {},
   data: () => ({
-    drawer: false
+    drawer: false,
+    routes: [
+      {path: '/', name: 'Home'},
+      {path: '/tutorial', name: 'Tutorial'},
+      {path: '/international', name: 'International'},
+      {path: '/listing', name: 'Ideal Job Offer'},
+    ]
   })
 });
 </script>
 
 <style lang="scss">
 main {
-  width: 2/3 * 100%;
+  max-width: 2/3 * 100%;
   margin: 15px auto;
 }
 .indent-10 {

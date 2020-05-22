@@ -14,7 +14,7 @@
 </template>
 
 <script lang="ts">
-import { Image } from "@/interfaces/image";
+import { Image } from "@/types/image";
 import Vue from "vue";
 export default Vue.extend({
   props: {

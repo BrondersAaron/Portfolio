@@ -9,7 +9,9 @@
       </p>
     </Introduction>
 
-    <h1>Socials</h1>
+    <blog-overview></blog-overview>
+
+    <h2>Socials</h2>
       <v-icon x-large color="blue">mdi-linkedin
       </v-icon>
       <v-icon x-large color="dark-gray">mdi-github
@@ -21,13 +23,15 @@
 // @ is an alias to /src
 // import HelloWorld from '@/components/HelloWorld.vue'
 import Introduction from "@/components/Introduction.vue";
+import BlogOverview from "@/components/BlogOverview.vue";
 import Vue from "vue";
-import { Image } from "@/interfaces/image";
+import { Image } from "@/types/image";
 export default Vue.extend({
   name: "Home",
   components: {
     // HelloWorld
-    Introduction
+    Introduction,
+    BlogOverview
   },
   data() {
     return {
